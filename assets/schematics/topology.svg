@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="360" fill="#f7f9fc"/>
+  <text x="360" y="28" text-anchor="middle" font-size="18" fill="#1f2d3d">系统拓扑原理图（System Topology）</text>
+
+  <!-- 撰写者 -->
+  <rect x="40" y="150" width="120" height="56" rx="8" fill="#e3f0ff" stroke="#2b6cb0"/>
+  <text x="100" y="183" text-anchor="middle" font-size="14" fill="#1a365d">文档撰写者</text>
+
+  <!-- 网关 -->
+  <rect x="230" y="150" width="120" height="56" rx="8" fill="#e6fffa" stroke="#319795"/>
+  <text x="290" y="183" text-anchor="middle" font-size="14" fill="#234e52">文档网关</text>
+
+  <!-- 内容服务 -->
+  <rect x="430" y="60" width="130" height="56" rx="8" fill="#fff5e6" stroke="#dd8a31"/>
+  <text x="495" y="93" text-anchor="middle" font-size="14" fill="#7b4a12">内容服务</text>
+
+  <!-- 检索服务 -->
+  <rect x="430" y="150" width="130" height="56" rx="8" fill="#fff5e6" stroke="#dd8a31"/>
+  <text x="495" y="183" text-anchor="middle" font-size="14" fill="#7b4a12">检索服务</text>
+
+  <!-- 通知服务 -->
+  <rect x="430" y="240" width="130" height="56" rx="8" fill="#fff5e6" stroke="#dd8a31"/>
+  <text x="495" y="273" text-anchor="middle" font-size="14" fill="#7b4a12">通知服务</text>
+
+  <!-- 对象存储 -->
+  <rect x="620" y="60" width="80" height="56" rx="8" fill="#fde8e8" stroke="#c53030"/>
+  <text x="660" y="93" text-anchor="middle" font-size="13" fill="#742a2a">对象存储</text>
+
+  <!-- 审核者 -->
+  <rect x="620" y="240" width="80" height="56" rx="8" fill="#e3f0ff" stroke="#2b6cb0"/>
+  <text x="660" y="273" text-anchor="middle" font-size="13" fill="#1a365d">审核者</text>
+
+  <line x1="160" y1="178" x2="225" y2="178" stroke="#4a5568" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="350" y1="168" x2="425" y2="88" stroke="#4a5568" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="350" y1="178" x2="425" y2="178" stroke="#4a5568" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="350" y1="190" x2="425" y2="262" stroke="#4a5568" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="560" y1="88" x2="615" y2="88" stroke="#4a5568" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="560" y1="268" x2="615" y2="262" stroke="#4a5568" stroke-width="2" marker-end="url(#a)"/>
+
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4a5568"/>
+    </marker>
+  </defs>
+</svg>
